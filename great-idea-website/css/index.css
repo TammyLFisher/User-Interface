@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* *{
+  text-align: center;
+  color: black;
+  background-color: white;
+} */
+
+.container {
+	width: 80%;
+	min-width: 600px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.flex-container1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	word-spacing: 20px;
+}
+.flex-container1 nav a{
+	font-size: 10px;  
+	color: grey;
+	border: 1px black solid;
+	width: 80%;
+	height: 20%;
+	margin: 0 auto;	
+
+}
+.flex-container1 img{
+	padding-top: 1px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 20;
+	margin-bottom: 10px;
+	margin-left: 30px;
+	margin-top: 1px;
+	margin-right: 0 auto;
+	border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+
+}
+.flex-container2{
+	display: flex;
+	flex-direction: row;
+}	
+.flex-container2 h1{
+	border: 1px red solid;
+	width: 30%;
+	height: 70%;
+}
+.flex-container2 .button{
+	background-color: white;
+	border: 1px black solid;
+	color: black;
+	padding: 5px 20px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 10px;
+	
+}
+.flex-container2 h1 .text1, .text2, .text3{	
+	display: block;
+	flex-direction: column;		
+	text-align: center;
+	font-size: 50px;
+}
+.flex-container2 img{
+	height: 250px;
+	width: 250px;
+	border-radius: 250px;
+}
+.flex-container3{
+	display: flex;
+	flex-direction: row;
+}
+.par1{
+	display: block;
+	border: 1px green solid;
+	width: 40%;
+	height: 40%;
+}
+.par2{
+	display: block;
+	border: 1px blue solid;
+	width: 40%;
+	height: 20%;
+}
+.middle-image{
+	height: 20%;
+	width: 80%;	
+	align-content: center;
+}
+.flex-container4{
+	display: flex;
+	flex-direction: row;
+}
+.par3{
+	display: block;
+	border: 1px blueviolet solid;
+	width: 27%;
+	height: 20%;
+}
+.par4{
+	display: block;
+	border: 1px violet solid;
+	width: 27%;
+	height: 20%;
+}
+.par5{
+	display: block;
+	border: 1px orangered solid;
+	width: 27%;
+	height: 20%;
+}
+.flex-container5{
+	display: block;
+	flex-direction: column;
+	border: 1px darkmagenta solid;
+	width: 20%;
+	height: 20%
+}
+.flex-container5 .p1{
+	line-height: 1;
+}
+.flex-container5 .p2, .p3{
+	line-height: 2;
+}
+footer{
+	text-align: center;
+}

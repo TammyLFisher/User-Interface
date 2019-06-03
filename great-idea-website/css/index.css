@@ -64,134 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-/* *{
-  text-align: center;
-  color: black;
-  background-color: white;
-} */
 
 .container {
-	width: 80%;
-	min-width: 600px;
-	max-width: 800px;
-	margin: 0 auto;
+  width: 80%;
+  min-width: 600px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-content: center;
 }
-.flex-container1{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	word-spacing: 20px;
+.navbar{
+  margin: 0 auto;
+  justify-content: space-evenly;
+  word-spacing: 50px;
+  display:inline-block;
+  position: relative;
+  top: 1em;
+
 }
-.flex-container1 nav a{
+.navbar nav a{
 	font-size: 10px;  
 	color: grey;
-	border: 1px black solid;
+	border: 1px transparent solid;
 	width: 80%;
 	height: 20%;
 	margin: 0 auto;	
-
+	padding-top: 50px;
 }
-.flex-container1 img{
-	padding-top: 1px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	padding-right: 20;
-	margin-bottom: 10px;
-	margin-left: 30px;
-	margin-top: 1px;
-	margin-right: 0 auto;
-	border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-
-}
-.flex-container2{
-	display: flex;
-	flex-direction: row;
-}	
-.flex-container2 h1{
-	border: 1px red solid;
-	width: 30%;
-	height: 70%;
-}
-.flex-container2 .button{
-	background-color: white;
-	border: 1px black solid;
-	color: black;
-	padding: 5px 20px;
-	margin: 0 auto;
+.navbar .image1{
+  position: absolute;
+  right: -20px;
+  top: -.5px;
+ }
+.cont .slg{
+	font-family: 'Bangers' cursive;
+	font-size: 55px;
 	text-align: center;
-	text-decoration: none;
-	display: block;
-	font-size: 10px;
+	width: 500px;
+	display: inline-block;
+	margin-bottom: 100px;
+	vertical-align: center;
 	
 }
-.flex-container2 h1 .text1, .text2, .text3{	
-	display: block;
-	flex-direction: column;		
-	text-align: center;
-	font-size: 50px;
+.cont .slg button{
+	font-size: 12px;
+	padding: 6px 28px;
+	background: transparent;
+	border: 1px black solid;
 }
-.flex-container2 img{
-	height: 250px;
-	width: 250px;
-	border-radius: 250px;
+.cont .image2{
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: -100px;
+	border-radius: 90px;
+
 }
-.flex-container3{
-	display: flex;
-	flex-direction: row;
+
+.paragraphs1{
+	display: inline-block;
+	
 }
 .par1{
-	display: block;
-	border: 1px green solid;
+	display: inline-block;
+	border: 1px transparent solid;
 	width: 40%;
 	height: 40%;
 }
 .par2{
-	display: block;
-	border: 1px blue solid;
+	display: inline-block;
+	border: 1px transparent solid;
 	width: 40%;
 	height: 20%;
 }
 .middle-image{
-	height: 20%;
-	width: 80%;	
+	height: 20%;	
 	align-content: center;
+	margin-top: 50px;
 }
-.flex-container4{
-	display: flex;
-	flex-direction: row;
+.paragraphs2{
+	display: inline-block;
+	margin-top: 50px;
 }
 .par3{
-	display: block;
-	border: 1px blueviolet solid;
+	display: inline-block;
+	border: 1px transparent solid;
 	width: 27%;
 	height: 20%;
 }
 .par4{
-	display: block;
-	border: 1px violet solid;
+	display: inline-block;
+	border: 1px transparent solid;
 	width: 27%;
 	height: 20%;
 }
 .par5{
-	display: block;
-	border: 1px orangered solid;
+	display: inline-block;
+	border: 1px transparent solid;
 	width: 27%;
 	height: 20%;
 }
-.flex-container5{
+.paragraphs3{
 	display: block;
-	flex-direction: column;
-	border: 1px darkmagenta solid;
+	border: 1px transparent solid;
 	width: 20%;
-	height: 20%
+	height: 20%;
+	margin-top: 50px;
 }
-.flex-container5 .p1{
+.p1{
 	line-height: 1;
 }
-.flex-container5 .p2, .p3{
+.p2{
 	line-height: 2;
 }
 footer{

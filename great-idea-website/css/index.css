@@ -92,8 +92,8 @@ h1, h2, h3, h4, h5 {
 }
 .navbar .image1{
   position: absolute;
-  right: -20px;
-  top: -.5px;
+  right: -20em;
+  top: -.5em;
  }
 .cont .slg{
 	font-family: 'Bangers' cursive;

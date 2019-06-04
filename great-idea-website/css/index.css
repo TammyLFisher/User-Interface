@@ -64,3 +64,117 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+  width: 80%;
+  min-width: 800px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-content: center;
+}
+.navbar{
+  margin: 0 auto;
+  justify-content: space-evenly;
+  word-spacing: 50px;
+  display:inline-block;
+  position: relative;
+  top: 1em;
+
+}
+.navbar nav a{
+	font-size: 10px;  
+	color: grey;
+	border: 1px transparent solid;
+	width: 80%;
+	height: 20%;
+	margin: 0 auto;	
+	padding-top: 50px;
+}
+.navbar .image1{
+  position: absolute;
+  right: -20em;
+  top: -.5em;
+ }
+.cont .slg{
+	font-family: 'Bangers' cursive;
+	font-size: 55px;
+	text-align: center;
+	width: 500px;
+	display: inline-block;
+	margin-bottom: 100px;
+	vertical-align: center;
+	
+}
+.cont .slg button{
+	font-size: 12px;
+	padding: 6px 28px;
+	background: transparent;
+	border: 1px black solid;
+}
+.cont .image2{
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: -100px;
+	border-radius: 90px;
+
+}
+
+.paragraphs1{
+	display: inline-block;
+	
+}
+.par1{
+	display: inline-block;
+	border: 1px transparent solid;
+	width: 40%;
+	height: 40%;
+}
+.par2{
+	display: inline-block;
+	border: 1px transparent solid;
+	width: 40%;
+	height: 20%;
+}
+.middle-image{
+	height: 20%;	
+	align-content: center;
+	margin-top: 50px;
+}
+.paragraphs2{
+	display: inline-block;
+	margin-top: 50px;
+}
+.par3{
+	display: inline-block;
+	border: 1px transparent solid;
+	width: 27%;
+	height: 20%;
+}
+.par4{
+	display: inline-block;
+	border: 1px transparent solid;
+	width: 27%;
+	height: 20%;
+}
+.par5{
+	display: inline-block;
+	border: 1px transparent solid;
+	width: 27%;
+	height: 20%;
+}
+.paragraphs3{
+	display: block;
+	border: 1px transparent solid;
+	width: 20%;
+	height: 20%;
+	margin-top: 50px;
+}
+.p1{
+	line-height: 1;
+}
+.p2{
+	line-height: 2;
+}
+footer{
+	text-align: center;
+}
